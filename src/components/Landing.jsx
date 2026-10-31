@@ -412,21 +412,23 @@ function Landing() {
 
           {/* Summary Card */}
           <div className="bg-white p-10 border border-slate-100 shadow-sm rounded-lg">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-              <div className="space-y-2">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-1 block">
-                  Finiquito
-                </span>
-                <div className="text-2xl font-display font-semibold text-slate-900">
-                  {formatCurrency(result.finiquitoTotal)}
+            <div className="flex flex-wrap items-start justify-between gap-x-12 gap-y-8">
+              <div className="space-y-6">
+                <div className="space-y-2">
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-1 block">
+                    Finiquito
+                  </span>
+                  <div className="text-2xl font-display font-semibold text-slate-900">
+                    {formatCurrency(result.finiquitoTotal)}
+                  </div>
                 </div>
-              </div>
-              <div className="space-y-2">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-1 block">
-                  Indemnización
-                </span>
-                <div className="text-2xl font-display font-semibold text-slate-900">
-                  {formatCurrency(result.indemnityTotal)}
+                <div className="space-y-2">
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-1 block">
+                    Indemnización
+                  </span>
+                  <div className="text-2xl font-display font-semibold text-slate-900">
+                    {formatCurrency(result.indemnityTotal)}
+                  </div>
                 </div>
               </div>
               <div className="md:text-right">
