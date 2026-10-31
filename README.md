@@ -1,5 +1,8 @@
 # Calculadora de Finiquito Justo — LFT 2026 🇲🇽
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/hay-espacio-en-el-taco/calculadora-finiquito-LFT-MX)
+[![Publicar en GitHub Pages](https://github.com/hay-espacio-en-el-taco/calculadora-finiquito-LFT-MX/actions/workflows/deploy.yml/badge.svg)](https://github.com/hay-espacio-en-el-taco/calculadora-finiquito-LFT-MX/actions/workflows/deploy.yml)
+
 Una calculadora web interactiva para calcular el finiquito e indemnización conforme a la **Ley Federal del Trabajo (LFT) de México**, actualizada para 2026.
 
 > 🔓 **Repositorio público y de código abierto. ¡Los Pull Requests son bienvenidos!** Lee [Contribuir](#-contribuir) y [`AGENTS.md`](./AGENTS.md) antes de empezar.
