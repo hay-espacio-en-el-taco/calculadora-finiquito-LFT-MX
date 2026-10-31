@@ -15,29 +15,46 @@ Esta herramienta permite a trabajadores y empleadores mexicanos calcular de mane
 
 ---
 
-## ✨ Funcionalidades
+## 🚧 Estado del Proyecto
 
-- **Finiquito de Ley** — Aguinaldo proporcional (Art. 87 LFT) y vacaciones con prima vacacional (Art. 76–80 LFT).
-- **Indemnización por Despido Injustificado** — 90 días constitucionales (Art. 123 CPEUM), 20 días por año trabajado (Art. 50 LFT) y prima de antigüedad (Art. 162 LFT).
-- **Salario Diario Integrado (SDI)** — Cálculo automático del SDI utilizado como base de todos los conceptos.
-- **Tope legal de prima de antigüedad** — Aplicación automática del tope de dos salarios mínimos vigentes.
-- **Zonas geográficas** — Soporte para Zona General y Zona Libre de la Frontera Norte.
-- **Retenciones de ISR** — Estimación de la retención fiscal aplicable al finiquito.
+**En desarrollo, aún no listo para producción.** La interfaz es un prototipo con cifras de ejemplo y la lógica de cálculo todavía no está conectada. Consulta [`TAREAS.md`](./TAREAS.md) para ver los pendientes del lanzamiento.
+
+---
+
+## ✨ Funcionalidades (objetivo del lanzamiento)
+
+- **Finiquito de Ley** — Salarios devengados, aguinaldo proporcional (Art. 87 LFT), y vacaciones proporcionales y pendientes con prima vacacional (Arts. 76–81 LFT).
+- **Indemnización por Despido Injustificado** — 90 días de salario integrado (Art. 123 CPEUM / Art. 48 LFT) y prima de antigüedad (Art. 162 LFT). Los **20 días por año** (Art. 50 fr. II LFT) se calculan solo cuando proceden legalmente (Arts. 49 y 52 LFT).
+- **Prestaciones superiores a la ley** — Días de aguinaldo (mínimo 15) y porcentaje de prima vacacional (mínimo 25 %) configurables.
+- **Salario Diario Integrado (SDI)** — Se puede capturar o calcular. Es la base de las indemnizaciones (Arts. 84 y 89 LFT); el finiquito se calcula con la cuota diaria.
+- **Tope legal de prima de antigüedad** — Doble del salario mínimo de la zona (Arts. 162, 485 y 486 LFT).
+- **Zonas geográficas** — Zona General y Zona Libre de la Frontera Norte.
+- **Retenciones de ISR** — Exenciones del Art. 93 LISR y retención de los Arts. 95 y 96 LISR (Anexo 8 RMF 2026).
+- **Texto oficial de cada artículo** — Al hacer clic en una referencia (por ejemplo, Art. 87 LFT) se abre el texto vigente.
+- **Desglose en PDF** — Descarga del cálculo con fórmulas, artículos y avisos legales.
 - **Interfaz responsiva** — Diseño adaptado para escritorio y dispositivos móviles.
 
 ---
 
 ## 🏛️ Marco Legal
 
-| Concepto | Fundamento Legal |
-|---|---|
-| Aguinaldo Proporcional | Art. 87 LFT |
-| Vacaciones Proporcionales | Art. 76 LFT |
-| Prima Vacacional | Art. 80 LFT |
-| Indemnización (90 días) | Art. 123 Constitución / Art. 48 LFT |
-| 20 días por año | Art. 50 LFT |
-| Prima de Antigüedad | Art. 162 LFT |
-| Salario Mínimo (tope prima de antigüedad) | Art. 162 LFT — 2 SMG |
+El fundamento completo, las cifras oficiales 2026 y las fuentes están en [`docs/MARCO_LEGAL.md`](./docs/MARCO_LEGAL.md), que también se muestra en la página "Marco Legal" de la app. El estado de las verificaciones y el procedimiento de actualización anual están en [`docs/NOTAS_INTERNAS.md`](./docs/NOTAS_INTERNAS.md).
+
+| Concepto | Fundamento Legal | Cuándo aplica |
+|---|---|---|
+| Salarios devengados | Arts. 82, 83 y 88 LFT | Siempre |
+| Aguinaldo proporcional | Art. 87 LFT (mínimo 15 días) | Siempre |
+| Vacaciones | Arts. 76, 79 y 81 LFT (tabla reformada, DOF 27-12-2022) | Siempre |
+| Prima vacacional | Art. 80 LFT (mínimo 25 %) | Siempre |
+| Indemnización (90 días) | Art. 123 fr. XXII CPEUM / Arts. 48 y 50 fr. III LFT | Despido injustificado |
+| 20 días por año | Art. 50 fr. II LFT | Solo en los casos de los Arts. 49, 52 y 947 LFT |
+| Prima de antigüedad | Art. 162 LFT | Despido: siempre · Renuncia: con 15 años o más |
+| Tope prima de antigüedad | Arts. 485 y 486 LFT — 2 × salario mínimo de la zona | Siempre que se pague la prima |
+| Salario diario | Art. 89 LFT — sueldo mensual / 30 | Base de todos los conceptos |
+| Exenciones ISR | Art. 93 fr. XIII y XIV LISR (en UMA) | Siempre |
+| Retención ISR | Arts. 95 y 96 LISR, Anexo 8 RMF 2026 | Siempre |
+
+**Cifras 2026:** salario mínimo general $315.04 · frontera norte $440.87 · UMA $117.31 (vigente desde el 01-02-2026).
 
 ---
 
@@ -52,8 +69,8 @@ Esta herramienta permite a trabajadores y empleadores mexicanos calcular de mane
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/hay-espacio-en-el-taco/calculadora-finiquito-LFT-MX.git
-cd calculadora-finiquito-LFT-MX
+git clone https://github.com/hay-espacio-en-el-taco/claculadora-finiquito-LFT-MX.git
+cd claculadora-finiquito-LFT-MX
 
 # 2. Instalar dependencias
 npm install
@@ -80,15 +97,31 @@ La aplicación estará disponible en `http://localhost:5173`.
 ## 📁 Estructura del Proyecto
 
 ```
-calculadora-finiquito-LFT-MX/
+claculadora-finiquito-LFT-MX/
+├── docs/
+│   ├── MARCO_LEGAL.md    # Fundamento legal público (se muestra en la app)
+│   ├── NOTAS_INTERNAS.md # Verificaciones, estado y mantenimiento (solo equipo)
+│   └── CASOS_DE_PRUEBA.md # Casos para la revisión del abogado
 ├── public/               # Recursos estáticos
 ├── src/
 │   ├── components/
-│   │   └── Landing.jsx   # Componente principal de la calculadora
+│   │   ├── Landing.jsx     # Calculadora (formulario + resultados)
+│   │   ├── MarcoLegal.jsx  # Página que muestra docs/MARCO_LEGAL.md
+│   │   ├── Navigation.jsx  # Barra superior y barra móvil
+│   │   ├── ArticuloModal.jsx    # Texto oficial de cada artículo
+│   │   ├── ReporteImpresion.jsx # Formato del desglose en PDF
+│   │   └── Icon.jsx        # Íconos SVG en línea
+│   ├── data/
+│   │   └── articulos.json  # Texto oficial de los artículos (generado)
+│   ├── logic/
+│   │   └── calculator.js # Funciones puras de cálculo
 │   ├── App.jsx           # Componente raíz
 │   ├── App.css           # Estilos globales de la app
 │   ├── index.css         # Estilos base (Tailwind)
 │   └── main.jsx          # Punto de entrada de React
+├── AGENTS.md             # Reglas de desarrollo y validación legal (fuente única)
+├── CLAUDE.md             # Importa AGENTS.md + notas para Claude Code
+├── TAREAS.md             # Pendientes para el lanzamiento
 ├── index.html            # Template HTML
 ├── vite.config.js        # Configuración de Vite
 ├── eslint.config.js      # Configuración de ESLint
@@ -101,20 +134,23 @@ calculadora-finiquito-LFT-MX/
 
 ¡Las contribuciones son bienvenidas! Si encuentras un error en los cálculos legales, quieres agregar una nueva funcionalidad o mejorar la documentación, por favor:
 
-1. Haz un **fork** del repositorio.
-2. Crea una rama con un nombre descriptivo: `git checkout -b feature/calculo-ptu`.
-3. Realiza tus cambios y escribe commits claros.
-4. Abre un **Pull Request** describiendo los cambios realizados.
+1. Lee **[`AGENTS.md`](./AGENTS.md)**: reúne las convenciones del proyecto y el flujo obligatorio para validar cualquier cambio contra las leyes mexicanas vigentes. Aplica tanto a personas como a agentes de IA.
+2. Haz un **fork** del repositorio.
+3. Crea una rama con un nombre descriptivo: `git checkout -b feature/calculo-ptu`.
+4. Realiza tus cambios y escribe commits claros.
+5. Abre un **Pull Request** describiendo los cambios realizados.
 
-Para reportar errores o solicitar funcionalidades, abre un [Issue](https://github.com/hay-espacio-en-el-taco/calculadora-finiquito-LFT-MX/issues).
+Para reportar errores o solicitar funcionalidades, abre un [Issue](https://github.com/hay-espacio-en-el-taco/claculadora-finiquito-LFT-MX/issues).
 
-> ⚠️ **Importante:** Si los cambios afectan cálculos legales, incluye la referencia al artículo de la LFT o la fuente normativa correspondiente.
+> ⚠️ **Importante:** Si los cambios afectan cálculos legales, incluye la referencia al artículo de la LFT o la fuente normativa correspondiente y actualiza [`docs/MARCO_LEGAL.md`](./docs/MARCO_LEGAL.md) (texto para el público) y [`docs/NOTAS_INTERNAS.md`](./docs/NOTAS_INTERNAS.md).
 
 ---
 
 ## ⚖️ Aviso Legal
 
-Esta herramienta se proporciona con fines **informativos y educativos** únicamente. Los resultados son una estimación basada en la información ingresada y no constituyen asesoría legal. Para situaciones específicas, consulta a un abogado laboral certificado.
+Esta herramienta se proporciona con fines **informativos y educativos** únicamente. Los resultados son una estimación basada en la información ingresada y no constituyen asesoría legal. Asume un contrato por tiempo indeterminado. Para situaciones específicas, consulta a un abogado laboral certificado o a la [PROFEDET](https://www.gob.mx/profedet), que ofrece asesoría gratuita.
+
+Recuerda que el plazo para demandar por despido es de **2 meses** (Art. 518 LFT) y que antes de demandar debes acudir al Centro de Conciliación (Art. 684-B LFT).
 
 ---
 
