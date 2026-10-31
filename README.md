@@ -2,6 +2,10 @@
 
 Una calculadora web interactiva para calcular el finiquito e indemnización conforme a la **Ley Federal del Trabajo (LFT) de México**, actualizada para 2026.
 
+> 🔓 **Repositorio público y de código abierto. ¡Los Pull Requests son bienvenidos!** Lee [Contribuir](#-contribuir) y [`AGENTS.md`](./AGENTS.md) antes de empezar.
+
+**👉 Úsala en línea: [https://hay-espacio-en-el-taco.github.io/calculadora-finiquito-LFT-MX/](https://hay-espacio-en-el-taco.github.io/calculadora-finiquito-LFT-MX/)**
+
 [![Licencia: MIT](https://img.shields.io/badge/Licencia-MIT-yellow.svg)](./LICENSE)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite)](https://vite.dev/)
@@ -69,8 +73,8 @@ El fundamento completo, las cifras oficiales 2026 y las fuentes están en [`docs
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/hay-espacio-en-el-taco/claculadora-finiquito-LFT-MX.git
-cd claculadora-finiquito-LFT-MX
+git clone https://github.com/hay-espacio-en-el-taco/calculadora-finiquito-LFT-MX.git
+cd calculadora-finiquito-LFT-MX
 
 # 2. Instalar dependencias
 npm install
@@ -92,12 +96,16 @@ La aplicación estará disponible en `http://localhost:5173`.
 | `npm run preview` | Previsualiza el build de producción |
 | `npm run lint` | Ejecuta ESLint sobre todo el código fuente |
 
+### Publicación
+
+Cada push a `main` publica el sitio en GitHub Pages con el workflow [`.github/workflows/deploy.yml`](./.github/workflows/deploy.yml), que ejecuta `npm run lint` y `npm run build`. El sitio vive en `/calculadora-finiquito-LFT-MX/` (`base` en `vite.config.js`); si se renombra el repositorio, hay que actualizar `base` y las URLs de `index.html`.
+
 ---
 
 ## 📁 Estructura del Proyecto
 
 ```
-claculadora-finiquito-LFT-MX/
+calculadora-finiquito-LFT-MX/
 ├── docs/
 │   ├── MARCO_LEGAL.md    # Fundamento legal público (se muestra en la app)
 │   ├── NOTAS_INTERNAS.md # Verificaciones, estado y mantenimiento (solo equipo)
@@ -132,7 +140,7 @@ claculadora-finiquito-LFT-MX/
 
 ## 🤝 Contribuir
 
-¡Las contribuciones son bienvenidas! Si encuentras un error en los cálculos legales, quieres agregar una nueva funcionalidad o mejorar la documentación, por favor:
+Este repositorio es **público** y **¡los Pull Requests son bienvenidos!** Si encuentras un error en los cálculos legales, quieres agregar una nueva funcionalidad o mejorar la documentación, por favor:
 
 1. Lee **[`AGENTS.md`](./AGENTS.md)**: reúne las convenciones del proyecto y el flujo obligatorio para validar cualquier cambio contra las leyes mexicanas vigentes. Aplica tanto a personas como a agentes de IA.
 2. Haz un **fork** del repositorio.
@@ -140,7 +148,7 @@ claculadora-finiquito-LFT-MX/
 4. Realiza tus cambios y escribe commits claros.
 5. Abre un **Pull Request** describiendo los cambios realizados.
 
-Para reportar errores o solicitar funcionalidades, abre un [Issue](https://github.com/hay-espacio-en-el-taco/claculadora-finiquito-LFT-MX/issues).
+Para reportar errores o solicitar funcionalidades, abre un [Issue](https://github.com/hay-espacio-en-el-taco/calculadora-finiquito-LFT-MX/issues).
 
 > ⚠️ **Importante:** Si los cambios afectan cálculos legales, incluye la referencia al artículo de la LFT o la fuente normativa correspondiente y actualiza [`docs/MARCO_LEGAL.md`](./docs/MARCO_LEGAL.md) (texto para el público) y [`docs/NOTAS_INTERNAS.md`](./docs/NOTAS_INTERNAS.md).
 

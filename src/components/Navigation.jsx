@@ -1,4 +1,5 @@
 import Icon from './Icon';
+import { REPO_URL } from '../constants';
 
 const PAGES = [
   { id: 'calculadora', label: 'Calculadora', icon: 'calculadora' },
@@ -36,6 +37,16 @@ function Navigation({ currentPage }) {
               </a>
             );
           })}
+          <a
+            href={REPO_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Repositorio en GitHub (código abierto, ¡PRs bienvenidos!)"
+            title="Código abierto · ¡PRs bienvenidos!"
+            className="text-slate-400 hover:text-slate-900 transition-colors"
+          >
+            <Icon name="github" className="w-5 h-5" />
+          </a>
         </div>
       </nav>
 

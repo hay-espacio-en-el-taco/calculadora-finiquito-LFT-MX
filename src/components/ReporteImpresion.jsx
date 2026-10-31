@@ -1,4 +1,5 @@
 import { formatCurrency } from '../logic/calculator';
+import { REPO_LABEL } from '../constants';
 
 const ZONAS = { general: 'Zona General', frontera: 'Zona Libre de la Frontera Norte' };
 const SEPARACIONES = { renuncia: 'Renuncia voluntaria', despido: 'Despido injustificado' };
@@ -106,6 +107,10 @@ function ReporteImpresion({ datos, result, breakdown, warnings }) {
           Esta estimación es informativa y no constituye asesoría legal. El plazo para demandar por despido es de 2 meses
           (Art. 518 LFT) y antes de demandar debe acudirse al Centro de Conciliación. La Procuraduría Federal de la
           Defensa del Trabajo (PROFEDET) ofrece asesoría gratuita.
+        </p>
+        <p className="pt-2 text-slate-500">
+          Generado con la Calculadora de Finiquito Justo, proyecto de código abierto: {REPO_LABEL} (¡los Pull
+          Requests son bienvenidos!).
         </p>
       </section>
     </div>
