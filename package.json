@@ -2,13 +2,13 @@
   "name": "calculadora-finiquito-lft-mx",
   "version": "1.0.0",
   "description": "Calculadora de finiquito y liquidación conforme a la Ley Federal del Trabajo (LFT) de México.",
-  "homepage": "https://github.com/hay-espacio-en-el-taco/claculadora-finiquito-LFT-MX#readme",
+  "homepage": "https://github.com/hay-espacio-en-el-taco/calculadora-finiquito-LFT-MX#readme",
   "bugs": {
-    "url": "https://github.com/hay-espacio-en-el-taco/claculadora-finiquito-LFT-MX/issues"
+    "url": "https://github.com/hay-espacio-en-el-taco/calculadora-finiquito-LFT-MX/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hay-espacio-en-el-taco/claculadora-finiquito-LFT-MX.git"
+    "url": "git+https://github.com/hay-espacio-en-el-taco/calculadora-finiquito-LFT-MX.git"
   },
   "license": "MIT",
   "author": "Hay espacio en el taco",

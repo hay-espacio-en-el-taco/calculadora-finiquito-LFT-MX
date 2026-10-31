@@ -1,5 +1,6 @@
 import { lazy, Suspense, useEffect, useState } from 'react';
 import Landing from './components/Landing';
+import Footer from './components/Footer';
 import Navigation from './components/Navigation';
 import './App.css';
 
@@ -38,6 +39,7 @@ function App() {
       <Suspense fallback={<p className="max-w-4xl mx-auto px-8 py-10 text-sm text-slate-400">Cargando…</p>}>
         <Page />
       </Suspense>
+      <Footer />
     </div>
   );
 }

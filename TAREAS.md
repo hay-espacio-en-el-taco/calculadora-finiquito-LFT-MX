@@ -70,10 +70,14 @@ Prioridades: **P0** = bloquea el lanzamiento · **P1** = necesaria para un lanza
 - [x] La página **Marco Legal** muestra `docs/MARCO_LEGAL.md` directamente (fuente única) y se carga de forma diferida.
 - [x] Documentos separados: `docs/MARCO_LEGAL.md` es la versión pública, redactada para el usuario y sin notas de desarrollo; `docs/NOTAS_INTERNAS.md` concentra las verificaciones, el estado de implementación, los errores conocidos y el mantenimiento.
 - [x] Fuentes alojadas en el propio sitio con `@fontsource-variable` (Inter y Work Sans), sin peticiones a Google. Material Symbols reemplazado por 3 íconos SVG en línea (`src/components/Icon.jsx`). Verificado: la página no hace ninguna petición a dominios externos.
-- [x] Limpieza: se quitaron `react-pdf` y `serverless`; se eliminó `public/menu.pdf` (era el menú de un restaurante); la licencia de `package.json` ahora es MIT. El repositorio real en GitHub es `claculadora-finiquito-LFT-MX`, así que se corrigieron las URLs del README (apuntaban a `calculadora-…`, que no existe).
-- [ ] Opcional: renombrar el repositorio en GitHub a `calculadora-finiquito-LFT-MX` (GitHub redirige la URL anterior) y actualizar `package.json` y el README.
+- [x] Limpieza: se quitaron `react-pdf` y `serverless`; se eliminó `public/menu.pdf` (era el menú de un restaurante); la licencia de `package.json` ahora es MIT. 
+- [x] Repositorio renombrado en GitHub de `claculadora-…` (errata) a `calculadora-finiquito-LFT-MX`; URLs actualizadas en todo el proyecto (incluida la ruta base de GitHub Pages). GitHub redirige el nombre anterior, pero **no** la URL vieja de GitHub Pages.
 - [x] Metadatos en `index.html`: `description`, `theme-color`, Open Graph (`og:title`, `og:description`, `og:locale` es_MX, `og:site_name`) y Twitter Card; `lang="es-MX"`.
-- [ ] Cuando exista el dominio de producción: agregar `og:url`, `og:image` (imagen de 1200×630 con URL absoluta) y `<link rel="canonical">`.
+- [x] Publicación en GitHub Pages: workflow `.github/workflows/deploy.yml` (lint + build en cada push a `main`), `base` en `vite.config.js`, `og:url` y URL canónica.
+- [ ] Activar GitHub Pages en el repositorio: Settings → Pages → Source: **GitHub Actions** (una sola vez).
+- [x] Imagen para redes `public/og-image.png` (1200×630) con `og:image` absoluto y tarjeta grande de Twitter/X. Se genera desde `scripts/og-image.html` (instrucciones dentro del archivo).
+- [x] Repositorio público y "¡PRs bienvenidos!" con la URL del repo en: barra superior (ícono de GitHub), pie de página de todas las páginas (con enlace para reportar errores), PDF, sección 9 de `MARCO_LEGAL.md`, README e imagen para redes. La URL vive en `src/constants.js`.
+- [ ] Después de publicar, revisar la vista previa con el [Sharing Debugger de Facebook](https://developers.facebook.com/tools/debug/) o pegando el enlace en WhatsApp.
 - [x] Favicon provisional propio (`public/favicon.svg`, balanza blanca y verde sobre slate) y `apple-touch-icon.png` de 180 px; se eliminó `vite.svg`.
 - [ ] Reemplazar el favicon provisional por el definitivo cuando exista la identidad visual.
 

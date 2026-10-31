@@ -234,7 +234,15 @@ La calculadora muestra montos **brutos, antes de impuestos**. Esta información 
 
 ---
 
-## 9. Fuentes
+## 9. Código abierto
+
+Esta calculadora es un proyecto de código abierto y su repositorio es público: [github.com/hay-espacio-en-el-taco/calculadora-finiquito-LFT-MX](https://github.com/hay-espacio-en-el-taco/calculadora-finiquito-LFT-MX).
+
+Si encuentras un error en un cálculo o en este documento, [repórtalo](https://github.com/hay-espacio-en-el-taco/calculadora-finiquito-LFT-MX/issues). **¡Los Pull Requests son bienvenidos!** Todo cambio debe citar el artículo o la fuente oficial que lo respalda.
+
+---
+
+## 10. Fuentes
 
 **Oficiales**
 - [Ley Federal del Trabajo — Cámara de Diputados](https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf)

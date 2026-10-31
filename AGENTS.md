@@ -95,6 +95,8 @@ npm run build    # debe compilar sin errores
 npm run preview
 ```
 
+El sitio se publica en GitHub Pages (`https://hay-espacio-en-el-taco.github.io/calculadora-finiquito-LFT-MX/`) con `.github/workflows/deploy.yml` en cada push a `main`. Por eso `vite.config.js` define `base: '/calculadora-finiquito-LFT-MX/'`: no uses rutas absolutas escritas a mano (`/algo`) en el código; usa imports o `import.meta.env.BASE_URL`.
+
 Todavía no hay runner de tests. Configurar **Vitest** es una tarea P1 de `TAREAS.md`.
 
 ## Estructura
