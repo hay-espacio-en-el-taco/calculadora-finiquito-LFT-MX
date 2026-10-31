@@ -1,7 +1,7 @@
 {
   "name": "calculadora-finiquito-lft-mx",
   "version": "1.0.0",
-  "description": "",
+  "description": "Calculadora de finiquito y liquidación conforme a la Ley Federal del Trabajo (LFT) de México.",
   "homepage": "https://github.com/hay-espacio-en-el-taco/claculadora-finiquito-LFT-MX#readme",
   "bugs": {
     "url": "https://github.com/hay-espacio-en-el-taco/claculadora-finiquito-LFT-MX/issues"
@@ -10,10 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/hay-espacio-en-el-taco/claculadora-finiquito-LFT-MX.git"
   },
-  "license": "ISC",
-  "author": "",
+  "license": "MIT",
+  "author": "Hay espacio en el taco",
   "type": "module",
-  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -21,13 +20,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource-variable/work-sans": "^5.3.0",
     "@tailwindcss/vite": "^4.1.11",
+    "date-fns": "^4.4.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-pdf": "^10.4.1"
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
+    "@tailwindcss/typography": "^0.5.20",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react": "^4.6.0",
@@ -35,7 +39,6 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.3.0",
-    "serverless": "^4.17.2",
     "vite": "^7.0.4"
   }
 }

@@ -1,0 +1,212 @@
+{
+  "fuentes": {
+    "LFT": {
+      "nombre": "Ley Federal del Trabajo",
+      "ultimaReforma": "14-05-2026",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf"
+    },
+    "CPEUM": {
+      "nombre": "Constitución Política de los Estados Unidos Mexicanos",
+      "ultimaReforma": "07-10-2026",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf"
+    }
+  },
+  "articulos": {
+    "LFT-48": {
+      "ley": "LFT",
+      "titulo": "Artículo 48",
+      "parrafos": [
+        "El trabajador podrá solicitar ante la Autoridad Conciliadora, o ante el Tribunal si no existe arreglo conciliatorio, que se le reinstale en el trabajo que desempeñaba, o que se le indemnice con el importe de tres meses de salario, a razón del que corresponda a la fecha en que se realice el pago, observando previamente las disposiciones relativas al procedimiento de conciliación previsto en el artículo 684-A y subsiguientes.",
+        "Si en el juicio correspondiente no comprueba el patrón la causa de la rescisión, el trabajador tendrá derecho, además, cualquiera que hubiese sido la acción intentada, a que se le paguen los salarios vencidos computados desde la fecha del despido hasta por un período máximo de doce meses, en términos de lo preceptuado en la última parte del párrafo anterior.",
+        "Si al término del plazo señalado en el párrafo anterior no ha concluido el procedimiento o no se ha dado cumplimiento a la sentencia, se pagarán también al trabajador los intereses que se generen sobre el importe de quince meses de salario, a razón del dos por ciento mensual, capitalizable al momento del pago. Lo dispuesto en este párrafo no será aplicable para el pago de otro tipo de indemnizaciones o prestaciones.",
+        "En caso de muerte del trabajador, dejarán de computarse los salarios vencidos como parte del conflicto, a partir de la fecha del fallecimiento.",
+        "Los abogados, litigantes o representantes que promuevan acciones, excepciones, incidentes, diligencias, ofrecimiento de pruebas, recursos y, en general toda actuación en forma notoriamente improcedente, con la finalidad de prolongar, dilatar u obstaculizar la sustanciación o resolución de un juicio laboral, se le impondrá una multa de 100 a 1000 veces la Unidad de Medida y Actualización.",
+        "Si la dilación es producto de omisiones o conductas irregulares de los servidores públicos, la sanción aplicable será la suspensión hasta por noventa días sin pago de salario y en caso de reincidencia la destitución del cargo, en los términos de las disposiciones aplicables. Además, en este último supuesto se dará vista al Ministerio Público para que investigue la posible comisión de delitos contra la administración de justicia.",
+        "A los servidores públicos del Centro Federal de Conciliación y Registro Laboral cuando retrasen, obstruyan o influyan en el procedimiento de registros sindicales y de contratos colectivos y de reglamentos interiores de trabajo a favor o en contra de una de las partes, así como en el otorgamiento de la constancia de representatividad sin causa justificada se les impondrá una multa de 100 a 1000 veces la Unidad de Medida y Actualización. Por lo que se refiere a los servidores públicos de los Centros de Conciliación locales se le sancionará en los mismos términos, cuando en el desempeño de su función conciliatoria incurran en estas conductas."
+      ],
+      "reformas": [
+        "Párrafo reformado DOF 01-05-2019",
+        "Párrafo reformado DOF 01-05-2019",
+        "Párrafo reformado DOF 01-05-2019",
+        "Párrafo adicionado DOF 01-05-2019",
+        "Artículo reformado DOF 30-11-2012"
+      ]
+    },
+    "LFT-49": {
+      "ley": "LFT",
+      "titulo": "Artículo 49",
+      "parrafos": [
+        "La persona empleadora quedará eximida de la obligación de reinstalar a la persona trabajadora, mediante el pago de las indemnizaciones que se determinan en el artículo 50 en los casos siguientes:",
+        "I. Cuando se trate de trabajadores que tengan una antigüedad menor de un año;",
+        "II. Si comprueba ante el Tribunal que el trabajador, por razón del trabajo que desempeña o por las características de sus labores, está en contacto directo y permanente con él y el Tribunal estima, tomando en consideración las circunstancias del caso, que no es posible el desarrollo normal de la relación de trabajo;",
+        "III. En los casos de trabajadores de confianza;",
+        "IV. En el trabajo del hogar;",
+        "V. Cuando se trate de trabajadores eventuales, y",
+        "VI. Cuando se trate de personas trabajadoras en plataformas digitales. Únicamente procederá la reinstalación obligatoria en caso de violación a derechos colectivos, tales como la libertad de asociación, autonomía sindical, el derecho de huelga y de contratación colectiva.",
+        "Para ejercer este derecho el patrón podrá acudir al Tribunal en la vía paraprocesal contemplada en el artículo 982 de esta Ley para depositar la indemnización a que se refiere el artículo 50 de esta Ley. Para tal efecto el patrón aportará al Tribunal la información relacionada con el nombre y domicilio del trabajador, para que se le notifique dicho paraprocesal, debiendo manifestar bajo protesta de decir verdad que en el caso se actualiza alguna de las hipótesis contempladas en el presente artículo. Con el escrito de cuenta y desglose del monto de la indemnización el Tribunal correrá traslado al trabajador para su conocimiento.",
+        "Si el trabajador no está de acuerdo con la procedencia o los términos de la indemnización, el trabajador tendrá a salvo sus derechos para demandar por la vía jurisdiccional la acción que corresponda; en caso de que en el juicio se resuelva que el trabajador no se encuentra en ninguna de las hipótesis de este artículo, el depósito de la indemnización no surtirá efecto alguno y el Tribunal dispondrá del dinero depositado para ejecutar su sentencia. Si en dicho juicio el Tribunal resuelve que se actualiza alguna de las hipótesis contempladas en este artículo, pero el monto depositado es insuficiente para pagar la indemnización, el Tribunal condenará al patrón a pagar las diferencias e intereses correspondientes."
+      ],
+      "reformas": [
+        "Párrafo reformado DOF 02-07-2019",
+        "Fracción reformada DOF 01-05-2019",
+        "Fracción reformada DOF 01-05-2019, 02-07-2019, 24-12-2024",
+        "Fracción reformada DOF 24-12-2024",
+        "Fracción adicionada DOF 24-12-2024",
+        "Párrafo adicionado DOF 01-05-2019",
+        "Párrafo adicionado DOF 01-05-2019"
+      ]
+    },
+    "LFT-50": {
+      "ley": "LFT",
+      "titulo": "Artículo 50",
+      "parrafos": [
+        "Las indemnizaciones a que se refiere el artículo anterior consistirán:",
+        "I. Si la relación de trabajo fuere por tiempo determinado menor de un año, en una cantidad igual al importe de los salarios de la mitad del tiempo de servicios prestados; si excediera de un año, en una cantidad igual al importe de los salarios de seis meses por el primer año y de veinte días por cada uno de los años siguientes en que hubiese prestado sus servicios;",
+        "II. Si la relación de trabajo fuere por tiempo indeterminado, la indemnización consistirá en veinte días de salario por cada uno de los años de servicios prestados;",
+        "III. Además de las indemnizaciones a que se refieren las fracciones anteriores, en el importe de tres meses de salario y el pago de los salarios vencidos e intereses, en su caso, en los términos previstos en el artículo 48 de esta Ley, y",
+        "IV. Para las personas trabajadoras de plataformas digitales la indemnización consistirá en tres meses de salario. Adicionalmente se pagarán veinte días de salario por cada uno de los años de servicios prestados, tomando en cuenta el tiempo efectivamente laborado, como lo establece el artículo 291-D del mismo ordenamiento y los salarios vencidos e intereses, en su caso, en los términos previstos en el artículo 48 de esta Ley."
+      ],
+      "reformas": [
+        "Fracción reformada DOF 24-12-2024",
+        "Fracción reformada DOF 30-11-2012, 24-12-2024",
+        "Fracción adicionada DOF 24-12-2024"
+      ]
+    },
+    "LFT-52": {
+      "ley": "LFT",
+      "titulo": "Artículo 52",
+      "parrafos": [
+        "El trabajador podrá separarse de su trabajo dentro de los treinta días siguientes a la fecha en que se dé cualquiera de las causas mencionadas en el artículo anterior y tendrá derecho a que el patrón lo indemnice en los términos del artículo 50."
+      ],
+      "reformas": []
+    },
+    "LFT-76": {
+      "ley": "LFT",
+      "titulo": "Artículo 76",
+      "parrafos": [
+        "Las personas trabajadoras que tengan más de un año de servicios disfrutarán de un periodo anual de vacaciones pagadas, que en ningún caso podrá ser inferior a doce días laborables, y que aumentará en dos días laborables, hasta llegar a veinte, por cada año subsecuente de servicios. A partir del sexto año, el periodo de vacaciones aumentará en dos días por cada cinco de servicios."
+      ],
+      "reformas": [
+        "Artículo reformado DOF 27-12-2022"
+      ]
+    },
+    "LFT-77": {
+      "ley": "LFT",
+      "titulo": "Artículo 77",
+      "parrafos": [
+        "Los trabajadores que presten servicios discontinuos y los de temporada tendrán derecho a un período anual de vacaciones, en proporción al número de días de trabajos en el año."
+      ],
+      "reformas": []
+    },
+    "LFT-78": {
+      "ley": "LFT",
+      "titulo": "Artículo 78",
+      "parrafos": [
+        "Del total del periodo que le corresponda conforme a lo previsto en el artículo 76 de esta Ley, la persona trabajadora disfrutará de doce días de vacaciones continuos, por lo menos. Dicho periodo, a potestad de la persona trabajadora podrá ser distribuido en la forma y tiempo que así lo requiera."
+      ],
+      "reformas": [
+        "Artículo reformado DOF 27-12-2022"
+      ]
+    },
+    "LFT-79": {
+      "ley": "LFT",
+      "titulo": "Artículo 79",
+      "parrafos": [
+        "Las vacaciones no podrán compensarse con una remuneración.",
+        "Si la relación de trabajo termina antes de que se cumpla el año de servicios, el trabajador tendrá derecho a una remuneración proporcionada al tiempo de servicios prestados."
+      ],
+      "reformas": []
+    },
+    "LFT-80": {
+      "ley": "LFT",
+      "titulo": "Artículo 80",
+      "parrafos": [
+        "Los trabajadores tendrán derecho a una prima no menor de veinticinco por ciento sobre los salarios que les correspondan durante el período de vacaciones."
+      ],
+      "reformas": []
+    },
+    "LFT-82": {
+      "ley": "LFT",
+      "titulo": "Artículo 82",
+      "parrafos": [
+        "Salario es la retribución que debe pagar el patrón al trabajador por su trabajo."
+      ],
+      "reformas": []
+    },
+    "LFT-84": {
+      "ley": "LFT",
+      "titulo": "Artículo 84",
+      "parrafos": [
+        "El salario se integra con los pagos hechos en efectivo por cuota diaria, gratificaciones, percepciones, habitación, primas, comisiones, prestaciones en especie y cualquiera otra cantidad o prestación que se entregue al trabajador por su trabajo."
+      ],
+      "reformas": []
+    },
+    "LFT-87": {
+      "ley": "LFT",
+      "titulo": "Artículo 87",
+      "parrafos": [
+        "Los trabajadores tendrán derecho a un aguinaldo anual que deberá pagarse antes del día veinte de diciembre, equivalente a quince días de salario, por lo menos.",
+        "Los que no hayan cumplido el año de servicios, independientemente de que se encuentren laborando o no en la fecha de liquidación del aguinaldo, tendrán derecho a que se les pague la parte proporcional del mismo, conforme al tiempo que hubieren trabajado, cualquiera que fuere éste."
+      ],
+      "reformas": [
+        "Párrafo reformado DOF 31-12-1975"
+      ]
+    },
+    "LFT-89": {
+      "ley": "LFT",
+      "titulo": "Artículo 89",
+      "parrafos": [
+        "Para determinar el monto de las indemnizaciones que deban pagarse a los trabajadores se tomará como base el salario correspondiente al día en que nazca el derecho a la indemnización, incluyendo en él la cuota diaria y la parte proporcional de las prestaciones mencionadas en el artículo 84. En los casos de salario por unidad de obra, y en general, cuando la retribución sea variable, se tomará como salario diario el promedio de las percepciones obtenidas en los treinta días efectivamente trabajados antes del nacimiento del derecho. Si en ese lapso hubiese habido aumento en el salario, se tomará como base el promedio de las percepciones obtenidas por el trabajador a partir de la fecha del aumento.",
+        "Cuando el salario se fije por semana o por mes, se dividirá entre siete o entre treinta, según el caso, para determinar el salario diario."
+      ],
+      "reformas": []
+    },
+    "LFT-162": {
+      "ley": "LFT",
+      "titulo": "Artículo 162",
+      "parrafos": [
+        "Los trabajadores de planta tienen derecho a una prima de antigüedad, de conformidad con las normas siguientes:",
+        "I. La prima de antigüedad consistirá en el importe de doce días de salario, por cada año de servicios;",
+        "II. Para determinar el monto del salario, se estará a lo dispuesto en los artículos 485 y 486;",
+        "III. La prima de antigüedad se pagará a los trabajadores que se separen voluntariamente de su empleo, siempre que hayan cumplido quince años de servicios, por lo menos. Asimismo se pagará a los que se separen por causa justificada y a los que sean separados de su empleo, independientemente de la justificación o injustificación del despido;",
+        "IV. Para el pago de la prima en los casos de retiro voluntario de los trabajadores, se observarán las normas siguientes:",
+        "a) Si el número de trabajadores que se retire dentro del término de un año no excede del diez por ciento del total de los trabajadores de la empresa o establecimiento, o de los de una categoría determinada, el pago se hará en el momento del retiro.",
+        "b) Si el número de trabajadores que se retire excede del diez por ciento, se pagará a los que primeramente se retiren y podrá diferirse para el año siguiente el pago a los trabajadores que excedan de dicho porcentaje.",
+        "c) Si el retiro se efectúa al mismo tiempo por un número de trabajadores mayor del porcentaje mencionado, se cubrirá la prima a los que tengan mayor antigüedad y podrá diferirse para el año siguiente el pago de la que corresponda a los restantes trabajadores;",
+        "V. En caso de muerte del trabajador, cualquiera que sea su antigüedad, la prima que corresponda se pagará a las personas mencionadas en el artículo 501; y",
+        "VI. La prima de antigüedad a que se refiere este artículo se cubrirá a los trabajadores o a sus beneficiarios, independientemente de cualquier otra prestación que les corresponda."
+      ],
+      "reformas": [
+        "Fe de erratas al inciso DOF 05-06-1970"
+      ]
+    },
+    "LFT-485": {
+      "ley": "LFT",
+      "titulo": "Artículo 485",
+      "parrafos": [
+        "La cantidad que se tome como base para el pago de las indemnizaciones no podrá ser inferior al salario mínimo."
+      ],
+      "reformas": []
+    },
+    "LFT-486": {
+      "ley": "LFT",
+      "titulo": "Artículo 486",
+      "parrafos": [
+        "Para determinar las indemnizaciones a que se refiere este título, si el salario que percibe el trabajador excede del doble del salario mínimo del área geográfica de aplicación a que corresponda el lugar de prestación del trabajo, se considerará esa cantidad como salario máximo. Si el trabajo se presta en lugares de diferentes áreas geográficas de aplicación, el salario máximo será el doble del promedio de los salarios mínimos respectivos."
+      ],
+      "reformas": [
+        "Artículo reformado DOF 21-01-1988"
+      ]
+    },
+    "CPEUM-123-A-XXII": {
+      "ley": "CPEUM",
+      "titulo": "Artículo 123, Apartado A, fracción XXII",
+      "parrafos": [
+        "XXII. El patrono que despida a un obrero sin causa justificada o por haber ingresado a una asociación o sindicato, o por haber tomado parte en una huelga lícita, estará obligado, a elección del trabajador, a cumplir el contrato o a indemnizarlo con el importe de tres meses de salario. La Ley determinará los casos en que el patrono podrá ser eximido de la obligación de cumplir el contrato, mediante el pago de una indemnización. Igualmente tendrá la obligación de indemnizar al trabajador con el importe de tres meses de salario, cuando se retire del servicio por falta de probidad del patrono o por recibir de él malos tratamientos, ya sea en su persona o en la de su cónyuge, padres, hijos o hermanos. El patrono no podrá eximirse de esta responsabilidad, cuando los malos tratamientos provengan de dependientes o familiares que obren con el consentimieto (sic DOF 21-11-1962) o tolerancia de él."
+      ],
+      "reformas": [
+        "Fracción reformada DOF 21-11-1962"
+      ]
+    }
+  }
+}
