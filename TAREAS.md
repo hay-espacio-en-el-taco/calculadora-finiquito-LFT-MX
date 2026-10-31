@@ -73,7 +73,9 @@ Prioridades: **P0** = bloquea el lanzamiento · **P1** = necesaria para un lanza
 - [x] Limpieza: se quitaron `react-pdf` y `serverless`; se eliminó `public/menu.pdf` (era el menú de un restaurante); la licencia de `package.json` ahora es MIT. El repositorio real en GitHub es `claculadora-finiquito-LFT-MX`, así que se corrigieron las URLs del README (apuntaban a `calculadora-…`, que no existe).
 - [ ] Opcional: renombrar el repositorio en GitHub a `calculadora-finiquito-LFT-MX` (GitHub redirige la URL anterior) y actualizar `package.json` y el README.
 - [x] Metadatos en `index.html`: `description`, `theme-color`, Open Graph (`og:title`, `og:description`, `og:locale` es_MX, `og:site_name`) y Twitter Card; `lang="es-MX"`.
-- [ ] Cuando exista el dominio de producción: agregar `og:url`, `og:image` (imagen de 1200×630 con URL absoluta) y `<link rel="canonical">`, y reemplazar el favicon de Vite por uno propio.
+- [ ] Cuando exista el dominio de producción: agregar `og:url`, `og:image` (imagen de 1200×630 con URL absoluta) y `<link rel="canonical">`.
+- [x] Favicon provisional propio (`public/favicon.svg`, balanza blanca y verde sobre slate) y `apple-touch-icon.png` de 180 px; se eliminó `vite.svg`.
+- [ ] Reemplazar el favicon provisional por el definitivo cuando exista la identidad visual.
 
 ## P2 — Funcionalidades posteriores
 
