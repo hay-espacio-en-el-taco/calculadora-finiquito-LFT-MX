@@ -1,0 +1,20 @@
+node_modules
+dist
+.git
+.github
+.cursor
+.vscode
+.DS_Store
+*.log
+.env
+.env.*
+coverage
+agent-transcripts
+terminals
+
+# Docs internos no se empaquetan; MARCO_LEGAL.md sí entra en el build vía Vite
+docs/NOTAS_INTERNAS.md
+docs/CASOS_DE_PRUEBA.md
+TAREAS.md
+CLAUDE.md
+AGENTS.md
