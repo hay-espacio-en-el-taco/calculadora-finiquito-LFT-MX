@@ -1,0 +1,11 @@
+services:
+  web:
+    build:
+      context: .
+      args:
+        # Sirve la app en http://localhost:8080/ (sin subruta de GitHub Pages)
+        VITE_BASE: /
+    image: calculadora-finiquito-lft-mx:local
+    ports:
+      - "8080:80"
+    restart: unless-stopped
